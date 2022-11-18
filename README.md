@@ -30,4 +30,28 @@ connect command of cluster to setup the kubeconfig of cluster in vm to deal with
 Two Service account
 	one for VM
 	one for GKE
+### 2- Deployment
 
+1- deploy jenkins
+
+    the offical Image of Jenkins
+
+2- deploy jenkins slave
+
+    build Image of base ubnutu conatin:
+
+        Docker
+
+        Kubectl
+
+        gcloud
+
+        helm
+
+        Java
+
+3- apply volumes to mount Data
+
+4- namespace
+
+5- service account
